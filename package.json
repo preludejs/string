@@ -1,6 +1,6 @@
 {
   "name": "@prelude/string",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "String module.",
   "type": "module",
   "main": "./cjs/index.js",
