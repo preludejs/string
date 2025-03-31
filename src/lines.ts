@@ -1,6 +1,7 @@
-/** @returns lines of provided string. */
-const lines =
-  (value: string): string[] =>
-    value.split(/\n\r?/)
-
-export default lines
+export * as Diff from './lines/diff.js'
+export * from './lines/distance-at.js'
+export * from './lines/distance-at.js'
+export * from './lines/of.js'
+export * from './lines/similar-index-of.js'
+export * from './lines/indent.js'
+export * from './lines/to-indent.js'

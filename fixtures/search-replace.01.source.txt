@@ -1,0 +1,13 @@
+import * as Fs from "node:fs";
+
+function foo() {
+    return "foo";
+}
+
+function bar() {
+    return "bar";
+}
+
+function baz() {
+    return "baz";
+}

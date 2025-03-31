@@ -1,18 +1,13 @@
 {
-  "extends": "@tsconfig/node16/tsconfig.json",
+  "extends": "@tsconfig/node22/tsconfig.json",
   "compilerOptions": {
-    "importsNotUsedAsValues": "error",
     "module": "ES2020",
     "moduleResolution": "Node",
     "noImplicitAny": false,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
-  },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "noUnusedParameters": true,
+    "rootDir": "src",
+    "outDir": "mjs"
+  }
 }

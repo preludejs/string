@@ -1,7 +1,10 @@
-const upperFirst =
-  (value: string): string =>
-    value === '' ?
-      value :
-      value[0].toUpperCase() + value.slice(1)
+export const upperFirstRegex = /^\p{Ll}/u
+
+/**
+ * @returns the provided string with the first character as upper case.
+ */
+export function upperFirst(value: string): string {
+  return value.replace(upperFirstRegex, match => match.toUpperCase())
+}
 
 export default upperFirst

@@ -1,0 +1,6 @@
+> SEARCH
+function bar
+= REPLACE
+/** This is bar function */
+function bar() {
+< END

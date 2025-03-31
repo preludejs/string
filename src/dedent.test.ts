@@ -1,9 +1,11 @@
 import * as S from './index.js'
 
 test('dedent', () => {
-  expect(S.dedent(`
+  expect(
+    S.dedent(`
     hello
       world
     !
-  `)).toEqual('hello\n  world\n!')
+  `)
+  ).toEqual('hello\n  world\n!')
 })
